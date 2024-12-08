@@ -1,0 +1,54 @@
+# Ignore backup and temporary files
+*.bak
+*.b#*
+*.kicad_pcb-bak
+*.sch-bak
+*-rescue.dcm
+*-rescue.lib
+*.zip
+*.pro
+*.dcm
+*.kicad_sym
+
+# Ignore netlist files
+*.net
+*.sch
+
+# Ignore simulation files
+*.raw
+*.log
+
+# Ignore cache files
+*-cache.lib
+*-rescue.lib
+
+# Ignore user-specific configuration files
+*.kicad_prl
+
+# Ignore report and export files
+*.xml
+*.bom
+*.pos
+*.csv
+*.drill
+*.map
+*.gbr
+
+# Ignore Gerber and fabrication outputs
+*.drl
+*.gbl
+*.gtl
+*.gbs
+*.gts
+*.gbo
+*.gto
+*.gko
+*.svg
+
+# Ignore auto-generated files from 3D rendering
+*.step
+*.stp
+*.wrl
+
+# Ignore folder for external builds (if any)
+build/
